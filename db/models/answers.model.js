@@ -7,7 +7,7 @@ const answerSchema = new mongoose.Schema({
     },
     qid: {
         type: String,
-        required: true,
+        required: true
     },
     ans: {
         type: String
