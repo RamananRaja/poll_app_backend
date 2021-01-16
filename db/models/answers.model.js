@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+//answer schema
 const answerSchema = new mongoose.Schema({
     username: {
         type: String,

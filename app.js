@@ -142,6 +142,7 @@ app.get('/fetchques/anlys/:qid', async(req, res ) => {
     res.send({ t_ans, opt1, opt2, opt3, opt4 });
 });
 
+//get user result
 app.get('/getuserans/:username', async(req, res) => {
     const username = req.params.username;
     const usercnt = await Answer.count({ username: username });
